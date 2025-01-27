@@ -29,7 +29,7 @@ That's it! The chart will automatically update every 10 seconds.
 
 ## Screenshots
 
-![Chart Screenshot](screenshots/chart_example.png)
+![image](https://github.com/user-attachments/assets/73fe0016-fefc-4413-8b58-b8078f8fab69)
 
 ## Requirements
 
