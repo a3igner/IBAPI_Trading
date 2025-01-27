@@ -1,0 +1,6 @@
+ib_insync==0.9.86
+pandas==2.1.4
+matplotlib==3.8.2
+numpy==1.26.3
+pytz==2023.3.post1
+auto-py-to-exe==2.42.0
