@@ -7,7 +7,6 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -24,6 +23,12 @@ wheels/
 # PyInstaller
 *.manifest
 *.spec
+!NVDA_TSM_Ratio_Chart.spec
+
+# Keep the executable and its README
+!dist/
+!dist/NVDA_TSM_Ratio_Chart.exe
+!dist/README.txt
 
 # Logs
 *.log
