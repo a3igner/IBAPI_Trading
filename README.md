@@ -2,6 +2,21 @@
 
 A real-time chart application that displays and monitors the price ratio between NVIDIA (NVDA) and TSMC (TSM) stocks using Interactive Brokers API.
 
+## Quick Start (Windows Users)
+
+### Download and Run
+1. Go to the [Releases](../../releases/latest) page
+2. Download `NVDA_TSM_Ratio_Chart.exe` from the latest release
+3. Download `README.txt` for detailed instructions
+4. Start TWS/Gateway and log in
+5. Double-click the downloaded executable
+
+That's it! The chart will automatically update every 10 seconds.
+
+[![Download Latest Release](https://img.shields.io/github/v/release/yourusername/nvda-tsm-ratio-chart?include_prereleases&label=Download&style=for-the-badge)](../../releases/latest)
+
+---
+
 ## Features
 
 - Real-time price ratio monitoring
@@ -12,13 +27,22 @@ A real-time chart application that displays and monitors the price ratio between
 - Support for both real-time and delayed market data
 - Current local time display
 
+## Screenshots
+
+![Chart Screenshot](screenshots/chart_example.png)
+
 ## Requirements
 
-- Python 3.8 or higher
 - Interactive Brokers TWS (Trader Workstation) or IB Gateway
 - Market data subscriptions for NVDA and TSM
 
-## Installation
+For developers:
+- Python 3.8 or higher
+- Dependencies listed in requirements.txt
+
+## For Developers
+
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -30,8 +54,6 @@ cd nvda-tsm-ratio-chart
 ```bash
 pip install -r requirements.txt
 ```
-
-## Usage
 
 ### Running from Source
 
@@ -71,7 +93,10 @@ python build_simple.py
 ├── build_simple.py        # Build script for Windows executable
 ├── requirements.txt       # Python dependencies
 ├── README.md             # Project documentation
-└── LICENSE              # MIT License
+├── LICENSE               # MIT License
+└── dist/                 # Distribution directory
+    ├── NVDA_TSM_Ratio_Chart.exe  # Windows executable
+    └── README.txt                # User instructions
 ```
 
 ## Development
